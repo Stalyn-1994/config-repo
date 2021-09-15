@@ -9,8 +9,8 @@ spring.datasource.platform: postgres
 spring.datasource.url: jdbc:postgresql://ec2-44-195-201-3.compute-1.amazonaws.com:5432/dia0a6ufhvmi4
 spring.datasource.username: wlxduovjelcstj
 spring.datasource.password: 158b2a050ece7517c1785ecec74caee63e949a596ff0a60012925a0d88dd56ee
-server.port: 9096
+server.port: 9095
 
 #Eureka config
-eureka.client.serviceUrl.defaultZone: http://eureka-ip-address:8761/eureka
+eureka.client.serviceUrl.defaultZone: http://eureka:8761/eureka
 eureka.client.instance.preferIpAddress: true
