@@ -14,4 +14,8 @@ server.port: 9097
 #Eureka config
 eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
 eureka.client.instance.preferIpAddress: true
-#management.endpoints.web.exposure.include: *
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true  
+management.endpoints.web.exposure.include: "*"
