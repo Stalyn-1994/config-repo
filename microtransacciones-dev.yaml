@@ -4,13 +4,13 @@ spring.jpa.hibernate.ddl-auto: update
 spring.datasource.driver-class-name: org.postgresql.Driver
 
 #Database config
-spring.jpa.database: postgresql
+spring.jpa.database: POSTGRESQL
 spring.datasource.platform: postgres
-spring.datasource.url: jdbc:postgresql://ec2-44-195-201-3.compute-1.amazonaws.com:5432/dia0a6ufhvmi4
-spring.datasource.username: wlxduovjelcstj
-spring.datasource.password: 158b2a050ece7517c1785ecec74caee63e949a596ff0a60012925a0d88dd56ee
+spring.datasource.url: jdbc:postgresql://ec2-35-153-91-18.compute-1.amazonaws.com:5432/d9kbu3smrtftbp
+spring.datasource.username: ankenirgbynvcg
+spring.datasource.password: 3e201a4656bb3d7b1943acb4ba2c033744c9e76973a1c3fc7fd6e8a7c554512d
 server.port: 9095
 
 #Eureka config
-eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka
+eureka.client.serviceUrl.defaultZone: http://18.212.55.57:8761/eureka
 eureka.client.instance.preferIpAddress: true
