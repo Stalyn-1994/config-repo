@@ -6,9 +6,9 @@ spring.datasource.driver-class-name: org.postgresql.Driver
 #Database config
 spring.jpa.database: POSTGRESQL
 spring.datasource.platform: postgres
-spring.datasource.url: jdbc:postgresql://ec2-54-145-110-118.compute-1.amazonaws.com:5432/d5e1bj7dencbna
-spring.datasource.username: hjgvocscwjvssg
-spring.datasource.password: 81fb2b075b980c36c934cf8dab2c036f6f0e50f811306c7b119981a17454fbdd
+spring.datasource.url: jdbc:postgresql://ec2-44-195-201-3.compute-1.amazonaws.com:5432/dia0a6ufhvmi4
+spring.datasource.username: wlxduovjelcstj
+spring.datasource.password: 158b2a050ece7517c1785ecec74caee63e949a596ff0a60012925a0d88dd56ee
 server.port: 9095
 
 #Eureka config
