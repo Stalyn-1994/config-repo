@@ -4,11 +4,11 @@ spring.jpa.hibernate.ddl-auto: update
 spring.datasource.driver-class-name: org.postgresql.Driver
 
 #Database config
-spring.jpa.database: POSTGRESQL
+spring.jpa.database: postgresql
 spring.datasource.platform: postgres
-spring.datasource.url: jdbc:postgresql://18.218.15.242:5432/pasarela
+spring.datasource.url: jdbc:postgresql://18.191.109.22:5432/pasarela
 spring.datasource.username: ubuntu
-spring.datasource.password: narias
+spring.datasource.password: ubuntu
 server.port: 9095
 
 #Eureka config
