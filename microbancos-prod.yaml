@@ -6,9 +6,9 @@ spring.datasource.driver-class-name: org.postgresql.Driver
 #Database config
 spring.jpa.database: postgresql
 spring.datasource.platform: postgres
-spring.datasource.url: jdbc:postgresql://18.191.109.22:5432/pasarela
-spring.datasource.username: ubuntu
-spring.datasource.password: ubuntu
+spring.datasource.url: jdbc:postgresql://18.219.250.136:5432/pasarela
+spring.datasource.username: postgres
+spring.datasource.password: narias
 server.port: 9097
 
 #Eureka config
